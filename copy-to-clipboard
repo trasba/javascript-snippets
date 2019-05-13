@@ -1,0 +1,4 @@
+var dummyContent = "value to copy goes here";
+var dummy = $('<input>').val(dummyContent).appendTo('body').select();
+document.execCommand('copy');
+//source https://www.sharmaprakash.com.np/javascript/copying-value-from-variable-to-clipboard/#
